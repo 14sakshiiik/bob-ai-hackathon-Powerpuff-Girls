@@ -17,8 +17,6 @@
 
 ## 🎯 Problem Statement
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
-
 Cyber-fraud investigations often involve scattered information such as bank transactions, call records, phone numbers, device IDs, account numbers, names, and timestamps. The main challenge is understanding how these different pieces of information are connected.
 
 Our Cyber Fraud Network Analyzer helps investigators organize this information, identify entities and relationships, visualize them as a network, and detect suspicious patterns such as rapid fund movement and multiple accounts sharing the same device.
@@ -26,8 +24,6 @@ Our Cyber Fraud Network Analyzer helps investigators organize this information, 
 ---
 
 ## 💡 Solution
-
-> In 2–3 sentences: What did you build? How does it solve the problem above?
 
 > Our solution is a Cyber Fraud Network Analyzer that converts scattered fraud-related data into a connected network of entities and relationships. The system analyzes transactions, phone numbers, devices, accounts, people, and timestamps to identify suspicious patterns such as rapid fund movement and shared devices, then uses IBM Bob to explain the analysis and generate an investigation brief.
 
