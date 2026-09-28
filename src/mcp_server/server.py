@@ -1,4 +1,4 @@
-import sys
+﻿import sys
 import os
 import json
 
@@ -51,7 +51,7 @@ mcp = MCPServer("TRACE Network Analyzer")
 
 
 # =====================================================
-# TOOL 1 — NETWORK SUMMARY
+# TOOL 1 ÔÇö NETWORK SUMMARY
 # =====================================================
 
 @mcp.tool()
@@ -73,7 +73,7 @@ def get_network_summary() -> str:
 
 
 # =====================================================
-# TOOL 2 — ACCOUNT DETAILS
+# TOOL 2 ÔÇö ACCOUNT DETAILS
 # =====================================================
 
 @mcp.tool()
@@ -206,7 +206,7 @@ def get_account_details(account_id: str) -> str:
 
 
 # =====================================================
-# TOOL 3 — ACCOUNT RISK
+# TOOL 3 ÔÇö ACCOUNT RISK
 # =====================================================
 
 @mcp.tool()
@@ -234,7 +234,7 @@ def get_account_risk(account_id: str) -> str:
 
 
 # =====================================================
-# TOOL 4 — COMPLETE ACCOUNT INVESTIGATION
+# TOOL 4 ÔÇö COMPLETE ACCOUNT INVESTIGATION
 # =====================================================
 
 @mcp.tool()
