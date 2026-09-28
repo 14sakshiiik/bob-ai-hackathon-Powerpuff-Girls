@@ -94,3 +94,11 @@ logs/
 .terraform/
 *.tfstate
 *.tfstate.backup
+
+# Local Bob configuration
+.bob/
+
+# Environment files
+.env
+.env.*
+!.env.example

@@ -1,0 +1,50 @@
+[
+    {
+        "account_id": "ACC001",
+        "person_id": "P001",
+        "bank": "MockBank",
+        "account_type": "Savings"
+    },
+    {
+        "account_id": "ACC002",
+        "person_id": "P002",
+        "bank": "MockBank",
+        "account_type": "Savings"
+    },
+    {
+        "account_id": "ACC003",
+        "person_id": "P003",
+        "bank": "MockBank",
+        "account_type": "Savings"
+    },
+    {
+        "account_id": "ACC004",
+        "person_id": "P004",
+        "bank": "MockBank",
+        "account_type": "Savings"
+    },
+    {
+        "account_id": "ACC005",
+        "person_id": "P005",
+        "bank": "MockBank",
+        "account_type": "Savings"
+    },
+    {
+        "account_id": "ACC006",
+        "person_id": "P006",
+        "bank": "MockBank",
+        "account_type": "Savings"
+    },
+    {
+        "account_id": "ACC007",
+        "person_id": "P002",
+        "bank": "MockBank",
+        "account_type": "Current"
+    },
+    {
+        "account_id": "ACC008",
+        "person_id": "P003",
+        "bank": "MockBank",
+        "account_type": "Savings"
+    }
+]

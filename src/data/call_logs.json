@@ -1,0 +1,72 @@
+[
+    {
+        "call_id": "CALL001",
+        "from_phone": "9000001001",
+        "to_phone": "9000001004",
+        "duration_seconds": 420,
+        "timestamp": "2026-09-20T08:45:00"
+    },
+    {
+        "call_id": "CALL002",
+        "from_phone": "9000001004",
+        "to_phone": "9000001002",
+        "duration_seconds": 180,
+        "timestamp": "2026-09-20T08:53:00"
+    },
+    {
+        "call_id": "CALL003",
+        "from_phone": "9000001001",
+        "to_phone": "9000001005",
+        "duration_seconds": 360,
+        "timestamp": "2026-09-20T09:40:00"
+    },
+    {
+        "call_id": "CALL004",
+        "from_phone": "9000001005",
+        "to_phone": "9000001006",
+        "duration_seconds": 240,
+        "timestamp": "2026-09-20T09:55:00"
+    },
+    {
+        "call_id": "CALL005",
+        "from_phone": "9000001002",
+        "to_phone": "9000001004",
+        "duration_seconds": 300,
+        "timestamp": "2026-09-20T10:40:00"
+    },
+    {
+        "call_id": "CALL006",
+        "from_phone": "9000001003",
+        "to_phone": "9000001005",
+        "duration_seconds": 210,
+        "timestamp": "2026-09-20T11:15:00"
+    },
+    {
+        "call_id": "CALL007",
+        "from_phone": "9000001001",
+        "to_phone": "9000001004",
+        "duration_seconds": 510,
+        "timestamp": "2026-09-21T08:35:00"
+    },
+    {
+        "call_id": "CALL008",
+        "from_phone": "9000001004",
+        "to_phone": "9000001006",
+        "duration_seconds": 275,
+        "timestamp": "2026-09-21T09:00:00"
+    },
+    {
+        "call_id": "CALL009",
+        "from_phone": "9000001005",
+        "to_phone": "9000001003",
+        "duration_seconds": 190,
+        "timestamp": "2026-09-21T10:00:00"
+    },
+    {
+        "call_id": "CALL010",
+        "from_phone": "9000001002",
+        "to_phone": "9000001005",
+        "duration_seconds": 330,
+        "timestamp": "2026-09-21T13:30:00"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "device_id": "DEV001",
+        "device_type": "Android",
+        "first_seen": "2026-09-01"
+    },
+    {
+        "device_id": "DEV002",
+        "device_type": "Android",
+        "first_seen": "2026-09-03"
+    },
+    {
+        "device_id": "DEV003",
+        "device_type": "Windows",
+        "first_seen": "2026-09-05"
+    },
+    {
+        "device_id": "DEV004",
+        "device_type": "Android",
+        "first_seen": "2026-09-07"
+    }
+]
