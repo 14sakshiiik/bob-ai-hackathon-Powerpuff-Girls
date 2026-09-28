@@ -110,13 +110,17 @@ cp .env.example .env
 
 ---
 
+
 ## ⚠️ Known Limitations
 
-> Be honest — judges appreciate transparency over overclaiming.
+- **Mock Data Only:** TRACE uses demonstration CSV/JSON data, not real banking, telecom, victim, or police records.
+- **Basic Security:** The prototype does not include full authentication, role-based access control, or investigator account management.
+- **Input Validation:** File inputs require validation and are not designed for untrusted production data.
+- **Secure Integration:** IBM Bob/MCP access should be restricted to specific investigation functions, with API keys stored in environment variables and excluded from GitHub.
+- **AI and Analysis Boundaries:** Python performs deterministic analysis, while AI explains findings. Risk levels and network roles are investigative indicators, not proof of guilt; human review is required.
+- **Production Readiness:** Enterprise-grade encryption, audit logging, secure storage, secrets management, and fine-grained permissions are not fully implemented.
 
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
+> **Future Scope:** Production deployment would require stronger authentication, access controls, encrypted data handling, audit trails, and secure case management.
 
 ---
 
