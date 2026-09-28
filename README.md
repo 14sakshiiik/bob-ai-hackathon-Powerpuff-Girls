@@ -35,14 +35,16 @@ The system follows the flow: **Data → Connections → Network → Suspicious P
 
 ---
 
+
 ## ✨ Key Features
 
-- **Entity Extraction:** Identifies people, bank accounts, phone numbers, devices, and transaction-related entities from fraud data.
-- **Relationship Analysis:** Discovers connections such as account ownership, money transfers, phone associations, and shared devices.
-- **Fraud Network Visualization:** Represents entities and relationships as an interactive network of nodes and connections.
-- **Suspicious Pattern Detection:** Identifies indicators such as rapid fund movement and multiple accounts connected to the same device.
-- **AI-Assisted Investigation Brief:** Uses IBM Bob to explain network findings and generate a structured investigation brief for investigators.
+- **High Connectivity Analysis:** Uses degree centrality to identify entities connected to many other entities in the fraud network.
+- **Network Position Analysis:** Uses betweenness centrality to identify entities that connect different parts of the network.
+- **Money-Flow Imbalance Detection:** Compares the total money received and sent by an account to highlight unusual financial-flow patterns.
+- **Shared-Device Detection:** Identifies multiple accounts associated with the same device identifier.
+- **Investigation Support:** Organizes detected patterns into useful findings to help investigators prioritize further examination.
 
+> **Note:** These indicators highlight potential investigation leads. They do not independently prove fraud or establish that an entity is a kingpin or money mule.
 ---
 
 ## 🛠️ Tech Stack
