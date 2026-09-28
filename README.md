@@ -78,19 +78,49 @@ The system follows the flow: **Data → Connections → Network → Suspicious P
 > **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/[your-repo].git
-cd [your-repo]
+## 🚀 How to Run
 
-# 2. Install dependencies
-[your install command here]
+Follow these steps to run **TRACE – Cyber Fraud Network Analyzer** on your local machine.
 
-# 3. Configure environment
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/14sakshiiik/bob-ai-hackathon-Powerpuff-Girls.git
+cd bob-ai-hackathon-Powerpuff-Girls
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Configure Environment
+
+If your project contains a `.env.example` file, create a `.env` file and add the required configuration values.
+
+```bash
 cp .env.example .env
-# Edit .env with your values
+```
 
-# 4. Run the project
-[your run command here]
+**Note:** Never upload API keys or secret credentials to GitHub.
+
+### 4. Run the Application
+
+```bash
+python app.py
+```
+
+### 5. Open the Dashboard
+
+Open your browser and visit:
+
+```text
+http://127.0.0.1:5000
+```
+
+Explore TRACE's network summary, account risk details, transaction relationships, and shared-device indicators using the available demonstration data.
+
 ```
 
 ---
