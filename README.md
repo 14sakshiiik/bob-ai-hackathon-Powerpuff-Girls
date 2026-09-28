@@ -126,6 +126,7 @@ cp .env.example .env
 
 ## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
+-We are most proud of TRACE's approach to connecting scattered cyber-fraud records into an understandable investigation network. By combining graph analysis, money-flow analysis, and shared-device detection, our project aims to help investigators discover meaningful relationships and prioritize potential leads. We are building a practical, responsible prototype that supports human investigation rather than automatically judging guilt.
+
 
 ---
