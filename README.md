@@ -9,7 +9,7 @@
 | Field | Value |
 |---|---|
 | **Team Name** | Powerpuff-Girls |
-| **Track** | AI,Cyber Forensics |
+| **Track** | AI, Cyber Forensics |
 | **Team Lead** | Tia Vadvania — tvadvania@gmail.com |
 | **Members** | Tia Vadvania, Riya Lalwani, Sakshi Khairnar|
 
