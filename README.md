@@ -1,6 +1,6 @@
-# 🚀 [Your Project Title Here]
+# 🕵️ Cyber Fraud Network Analyzer
 
-> ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
+> An AI-assisted investigation tool for discovering connections, suspicious patterns, and potential roles within cyber-fraud networks.
 
 ---
 
@@ -8,10 +8,10 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Name** | Powerpuff-Girls |
+| **Track** | AI |
+| **Team Lead** | Tia Vadvania — tvadvania@gmail.com |
+| **Members** | Tia Vadvania, Riya Lalwani, Sakshi Khairnar|
 
 ---
 
@@ -19,7 +19,9 @@
 
 > In 2–3 sentences: What problem does your project solve? Who experiences this problem?
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+Cyber-fraud investigations often involve scattered information such as bank transactions, call records, phone numbers, device IDs, account numbers, names, and timestamps. The main challenge is understanding how these different pieces of information are connected.
+
+Our Cyber Fraud Network Analyzer helps investigators organize this information, identify entities and relationships, visualize them as a network, and detect suspicious patterns such as rapid fund movement and multiple accounts sharing the same device.
 
 ---
 
@@ -27,17 +29,19 @@
 
 > In 2–3 sentences: What did you build? How does it solve the problem above?
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+> Our solution is a Cyber Fraud Network Analyzer that converts scattered fraud-related data into a connected network of entities and relationships. The system analyzes transactions, phone numbers, devices, accounts, people, and timestamps to identify suspicious patterns such as rapid fund movement and shared devices, then uses IBM Bob to explain the analysis and generate an investigation brief.
+
+The system follows the flow: **Data → Connections → Network → Suspicious Patterns → Investigation → AI-Assisted Report**.
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+- **Entity Extraction:** Identifies people, bank accounts, phone numbers, devices, and transaction-related entities from fraud data.
+- **Relationship Analysis:** Discovers connections such as account ownership, money transfers, phone associations, and shared devices.
+- **Fraud Network Visualization:** Represents entities and relationships as an interactive network of nodes and connections.
+- **Suspicious Pattern Detection:** Identifies indicators such as rapid fund movement and multiple accounts connected to the same device.
+- **AI-Assisted Investigation Brief:** Uses IBM Bob to explain network findings and generate a structured investigation brief for investigators.
 
 ---
 
@@ -45,11 +49,11 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | Python |
+| **Libraries** | NetworkX |
+| **IBM Technologies** | IBM Bob, MCP |
+| **Data** | Mock / File-based Fraud Data |
+| **Other** | Git, GitHub |
 
 ---
 
